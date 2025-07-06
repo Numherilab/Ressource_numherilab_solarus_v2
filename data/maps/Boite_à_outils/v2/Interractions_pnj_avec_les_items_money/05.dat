@@ -1,0 +1,209 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 3,
+  tileset = "Max Mraz/01_oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 32,
+  width = 224,
+  height = 160,
+  pattern = "20_12",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 0,
+  width = 224,
+  height = 32,
+  pattern = "35_8",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 32,
+  width = 32,
+  height = 160,
+  pattern = "41_8",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 32,
+  width = 32,
+  height = 160,
+  pattern = "37_7",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 32,
+  pattern = "39_7",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "34_8",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "36_8",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "40_7",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "38_8",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 192,
+  width = 8,
+  height = 32,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 192,
+  width = 8,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 16,
+  destination_map = "Interractions_pnj_avec_les_items_money/06",
+  destination = "destination_florian_money_condition_1",
+}
+
+destination{
+  name = "destination_marion_money_45_2",
+  layer = 0,
+  x = 160,
+  y = 45,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "Interractions_pnj_avec_les_items_money/04",
+  destination = "destination_item_heart_2",
+}
+
+destination{
+  name = "destination_marion_money_45_1",
+  layer = 0,
+  x = 160,
+  y = 189,
+  direction = 1,
+}
+
+npc{
+  name = "marion",
+  layer = 0,
+  x = 160,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/kelpton",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 208,
+  width = 32,
+  height = 16,
+  pattern = "53",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "53_2",
+}
+

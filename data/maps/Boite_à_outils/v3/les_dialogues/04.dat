@@ -1,0 +1,585 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 192,
+  pattern = "10",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 256,
+  height = 32,
+  pattern = "35_7",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 32,
+  width = 32,
+  height = 192,
+  pattern = "41_7",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 32,
+  width = 32,
+  height = 192,
+  pattern = "37_8",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 32,
+  pattern = "39_8",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "34_7",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "36_7",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "40_8",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "38_7",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 208,
+  width = 16,
+  height = 32,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 208,
+  width = 8,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 208,
+  width = 8,
+  height = 32,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "422",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "421",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "420",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "431",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 80,
+  width = 16,
+  height = 32,
+  pattern = "426",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "428",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "428",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "431",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "431",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "26_4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "29_4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "33_4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "28_4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "32_4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "27_7",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "27_8",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "30_4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "31_4",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "26_4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "33_4",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "29_4",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "28_4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "32_4",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "27_7",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "27_8",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "30_4",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "31_4",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 56,
+  width = 32,
+  height = 48,
+  pattern = "112_3",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "76",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 88,
+  width = 16,
+  height = 24,
+  pattern = "77",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 88,
+  width = 8,
+  height = 24,
+  pattern = "78",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "94",
+}
+
+npc{
+  name = "roger",
+  layer = 0,
+  x = 72,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/oclero_test_man",
+}
+
+npc{
+  name = "info",
+  layer = 0,
+  x = 192,
+  y = 109,
+  direction = 3,
+  subtype = 0,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 208,
+  width = 16,
+  height = 16,
+  destination_map = "les_dialogues/03",
+  destination = "destination_2",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 205,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 16,
+  destination_map = "les_dialogues/05",
+  destination = "destination",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 160,
+  y = 45,
+  direction = 3,
+}
+
+npc{
+  name = "sylvia",
+  layer = 0,
+  x = 96,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman/woman_3.8",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 224,
+  width = 32,
+  height = 16,
+  pattern = "53",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 0,
+  width = 32,
+  height = 16,
+  pattern = "53_2",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "424",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "423",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "425",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "430",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "429",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "429",
+  tileset = "01 Max Mraz/indoors_stone",
+}
+

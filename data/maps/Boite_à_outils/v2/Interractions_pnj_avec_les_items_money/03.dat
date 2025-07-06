@@ -1,0 +1,217 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "Max Mraz/01_oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 160,
+  pattern = "20_5",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 224,
+  height = 32,
+  pattern = "35_5",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "41_5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "37_6",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 200,
+  width = 224,
+  height = 32,
+  pattern = "39_6",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "34_5",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "36_5",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "40_6",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "38_5",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "52",
+}
+
+npc{
+  name = "Ronan",
+  layer = 0,
+  x = 160,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/man/man_1.8",
+}
+
+destination{
+  name = "destination_item_rubis_1",
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  destination_map = "Interractions_pnj_avec_les_items_money/02",
+  destination = "destination_money_30_2",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "Interractions_pnj_avec_les_items_money/04",
+  destination = "destination_item_heart_1",
+}
+
+destination{
+  name = "destination_item_rubis_2",
+  layer = 0,
+  x = 160,
+  y = 53,
+  direction = 3,
+}
+
+enemy{
+  layer = 0,
+  x = 88,
+  y = 85,
+  direction = 0,
+  breed = "chameleon",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "53",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 8,
+  width = 32,
+  height = 16,
+  pattern = "53_2",
+}
+

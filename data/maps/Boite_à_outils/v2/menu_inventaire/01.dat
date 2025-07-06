@@ -1,0 +1,52 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 256,
+  pattern = "5",
+}
+
+chest{
+  layer = 0,
+  x = 64,
+  y = 77,
+  treasure_name = "arc",
+  sprite = "entities/chest",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 96,
+  y = 133,
+  direction = 1,
+}
+
+chest{
+  layer = 0,
+  x = 104,
+  y = 77,
+  treasure_name = "potion_de_vie",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 128,
+  y = 77,
+  treasure_name = "carquois",
+  treasure_variant = 3,
+  sprite = "entities/chest",
+}
+

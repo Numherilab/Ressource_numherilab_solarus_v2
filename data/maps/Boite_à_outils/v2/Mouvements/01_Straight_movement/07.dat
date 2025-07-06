@@ -1,0 +1,325 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "Max Mraz/01_oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 40,
+  width = 192,
+  height = 160,
+  pattern = "10",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 8,
+  width = 192,
+  height = 32,
+  pattern = "35",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "41",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "37",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 200,
+  width = 192,
+  height = 32,
+  pattern = "39",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "34",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "aasf",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "40",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "38",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "50_3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "51_3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "52_4",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "50_4",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "52_3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "51_4",
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "01_Map_centrale/base",
+  destination = "destination_movement_straight_01",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  destination_map = "Boite_à_outils/v2/Mouvements/01_Straight_movement/06",
+  destination = "destination_2",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 160,
+  y = 53,
+  direction = 3,
+}
+
+destination{
+  name = "destination_1",
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+npc{
+  name = "poulet_1",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_2",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_3",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_4",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_5",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_6",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_7",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_8",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_9",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_10",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_11",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+
+npc{
+  name = "poulet_12",
+  layer = 0,
+  x = 136,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/clucko",
+}
+

@@ -1,0 +1,645 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "Max Mraz/01_oceanset_inside",
+  music = "",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 176,
+  pattern = "hole",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 144,
+  pattern = "20_3",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_18",
+  tileset = "Max Mraz/01_oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 32,
+  width = 32,
+  height = 192,
+  pattern = "block_wall_15",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 32,
+  width = 32,
+  height = 192,
+  pattern = "block_wall_21",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_13",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_22",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_16",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_14",
+  tileset = "oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 192,
+  width = 32,
+  height = 16,
+  pattern = "20_3",
+}
+
+destination{
+  name = "destination2",
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_1",
+  layer = 0,
+  x = 136,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_2",
+  layer = 0,
+  x = 120,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_3",
+  layer = 0,
+  x = 112,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_4",
+  layer = 0,
+  x = 96,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_5",
+  layer = 0,
+  x = 80,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_6",
+  layer = 0,
+  x = 64,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_7",
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_8",
+  layer = 0,
+  x = 32,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_9",
+  layer = 0,
+  x = 32,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_10",
+  layer = 0,
+  x = 32,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_11",
+  layer = 0,
+  x = 32,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_12",
+  layer = 0,
+  x = 32,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_13",
+  layer = 0,
+  x = 32,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_14",
+  layer = 0,
+  x = 32,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_15",
+  layer = 0,
+  x = 32,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_16",
+  layer = 0,
+  x = 32,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_17",
+  layer = 0,
+  x = 32,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_18",
+  layer = 0,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_19",
+  layer = 0,
+  x = 48,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_20",
+  layer = 0,
+  x = 64,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_21",
+  layer = 0,
+  x = 80,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_22",
+  layer = 0,
+  x = 96,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_23",
+  layer = 0,
+  x = 112,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_24",
+  layer = 0,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_25",
+  layer = 0,
+  x = 144,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_26",
+  layer = 0,
+  x = 160,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_27",
+  layer = 0,
+  x = 176,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_28",
+  layer = 0,
+  x = 192,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_29",
+  layer = 0,
+  x = 208,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_30",
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_31",
+  layer = 0,
+  x = 240,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_32",
+  layer = 0,
+  x = 256,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_33",
+  layer = 0,
+  x = 272,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_35",
+  layer = 0,
+  x = 272,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_34",
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_36",
+  layer = 0,
+  x = 272,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_37",
+  layer = 0,
+  x = 272,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_38",
+  layer = 0,
+  x = 272,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_39",
+  layer = 0,
+  x = 272,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_40",
+  layer = 0,
+  x = 272,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_41",
+  layer = 0,
+  x = 272,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_42",
+  layer = 0,
+  x = 272,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_43",
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_44",
+  layer = 0,
+  x = 256,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_45",
+  layer = 0,
+  x = 240,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_46",
+  layer = 0,
+  x = 224,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_47",
+  layer = 0,
+  x = 208,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_48",
+  layer = 0,
+  x = 192,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+dynamic_tile{
+  name = "Effondrement_du_sol_49",
+  layer = 0,
+  x = 184,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "20_3",
+}
+
+sensor{
+  name = "capteur_effondrement",
+  layer = 0,
+  x = 152,
+  y = 189,
+  width = 32,
+  height = 32,
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  destination_map = "01_Map_centrale/base",
+  destination = "destination",
+  sprite = "teletransporters/teletransporter_pink",
+}
+
