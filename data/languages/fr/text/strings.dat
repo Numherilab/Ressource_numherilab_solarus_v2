@@ -1,3 +1,6 @@
+text{ key = "ecran_titre.01", value = "La Boite" }
+text{ key = "ecran_titre.02", value = "à" }
+text{ key = "ecran_titre.03", value = "outils" }
 text{ key = "hud.action", value = "Action" }
 text{ key = "hud.change", value = "Change" }
 text{ key = "hud.grab", value = "Grab" }

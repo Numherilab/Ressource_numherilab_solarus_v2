@@ -7,6 +7,7 @@
 
 local initial_menus = {
   "scripts/menus/solarus_logo",
+  "scripts/menus/tutoriel_ecran_titre",
   "scripts/menus/start_game",
 }
 

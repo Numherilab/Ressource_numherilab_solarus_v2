@@ -29,3 +29,28 @@ d'initiation de solarus
 ]],
 }
 
+dialog{
+  id = "cerise_obtained",
+  text = [[
+Vous avez trouvé une cerise !
+Elle vous redonnera de la vie
+quand vous en aurez besoin.
+]],
+}
+
+dialog{
+  id = "cerise_used",
+  text = [[
+Vous mangez la cerise.
+Vous récupérez un cœur !
+]],
+}
+
+dialog{
+  id = "cerise_full_life",
+  text = [[
+Vous avez déjà toute votre vie.
+Gardez cette cerise pour plus tard !
+]],
+}
+

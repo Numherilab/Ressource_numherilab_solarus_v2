@@ -582,7 +582,7 @@ teletransporter{
   y = -16,
   width = 328,
   height = 16,
-  destination_map = "Mouvements/04_Path_movement/03",
+  destination_map = "Boite_à_outils/v2/Mouvements/04_Path_movement/03",
   destination = "_side",
 }
 
@@ -592,7 +592,7 @@ teletransporter{
   y = 240,
   width = 328,
   height = 16,
-  destination_map = "Mouvements/04_Path_movement/01",
+  destination_map = "Boite_à_outils/v2/Mouvements/04_Path_movement/01",
   destination = "_side",
 }
 

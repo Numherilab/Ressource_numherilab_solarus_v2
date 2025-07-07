@@ -6841,7 +6841,7 @@ teletransporter{
   y = 32,
   width = 16,
   height = 16,
-  destination_map = "Mouvements/02_Random_movement/01",
+  destination_map = "Boite_à_outils/v2/Mouvements/02_Random_movement/01",
   destination = "destination_1",
 }
 
@@ -6859,7 +6859,7 @@ teletransporter{
   y = 32,
   width = 16,
   height = 16,
-  destination_map = "Mouvements/03_Target_movement/01",
+  destination_map = "Boite_à_outils/v2/Mouvements/03_Target_movement/01",
   destination = "destination_1",
 }
 
@@ -6877,7 +6877,7 @@ teletransporter{
   y = 32,
   width = 16,
   height = 16,
-  destination_map = "Mouvements/04_Path_movement/01",
+  destination_map = "Boite_à_outils/v2/Mouvements/04_Path_movement/01",
   destination = "destination_1",
 }
 
@@ -6895,7 +6895,7 @@ teletransporter{
   y = 32,
   width = 16,
   height = 16,
-  destination_map = "Mouvements/06_Path_finding_movement/01",
+  destination_map = "Boite_à_outils/v2/Mouvements/06_Path_finding_movement/01",
   destination = "destination_1",
 }
 

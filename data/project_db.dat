@@ -42,6 +42,31 @@ map{ id = "Boite_à_outils/v2/Mouvements/01_Straight_movement/04" }
 map{ id = "Boite_à_outils/v2/Mouvements/01_Straight_movement/05" }
 map{ id = "Boite_à_outils/v2/Mouvements/01_Straight_movement/06" }
 map{ id = "Boite_à_outils/v2/Mouvements/01_Straight_movement/07" }
+map{ id = "Boite_à_outils/v2/Mouvements/02_Random_movement/01" }
+map{ id = "Boite_à_outils/v2/Mouvements/03_Target_movement/01" }
+map{ id = "Boite_à_outils/v2/Mouvements/03_Target_movement/02" }
+map{ id = "Boite_à_outils/v2/Mouvements/03_Target_movement/03" }
+map{ id = "Boite_à_outils/v2/Mouvements/04_Path_movement/01" }
+map{ id = "Boite_à_outils/v2/Mouvements/04_Path_movement/02" }
+map{ id = "Boite_à_outils/v2/Mouvements/04_Path_movement/03" }
+map{ id = "Boite_à_outils/v2/Mouvements/04_Path_movement/04" }
+map{ id = "Boite_à_outils/v2/Mouvements/06_Path_finding_movement/01" }
+map{ id = "Boite_à_outils/v2/Portes/1" }
+map{ id = "Boite_à_outils/v2/Portes/2" }
+map{ id = "Boite_à_outils/v2/Portes/3" }
+map{ id = "Boite_à_outils/v2/Portes/4" }
+map{ id = "Boite_à_outils/v2/Portes/5" }
+map{ id = "Boite_à_outils/v2/Portes/6" }
+map{ id = "Boite_à_outils/v2/Portes/7" }
+map{ id = "Boite_à_outils/v2/Portes/7 bis" }
+map{ id = "Boite_à_outils/v2/Portes/8" }
+map{ id = "Boite_à_outils/v2/Tiles Dynamiques/01" }
+map{ id = "Boite_à_outils/v2/Tiles Dynamiques/02" }
+map{ id = "Boite_à_outils/v2/Tiles Dynamiques/03" }
+map{ id = "Boite_à_outils/v2/Tiles Dynamiques/04" }
+map{ id = "Boite_à_outils/v2/Tiles Dynamiques/05" }
+map{ id = "Boite_à_outils/v2/Tiles Dynamiques/06" }
+map{ id = "Boite_à_outils/v2/Tiles Dynamiques/07" }
 map{ id = "Boite_à_outils/v2/camera/01" }
 map{ id = "Boite_à_outils/v2/camera/02" }
 map{ id = "Boite_à_outils/v2/hero/teste lit" }
@@ -59,37 +84,7 @@ map{ id = "Boite_à_outils/v3/pnj_items_monnaie/01", description = "01 pnj donne
 map{ id = "Boite_à_outils/v3/pnj_items_monnaie/02", description = "02 pnj donne de l'argent, ajout d'une variable + explacation variable et explication des valeurs booleenne" }
 map{ id = "Boite_à_outils/v3/pnj_items_monnaie/03", description = "03 pnj donne monnaie + ajoutd'un dialogue de refus" }
 map{ id = "Boite_à_outils/v3/pnj_items_monnaie/04", description = "04 pnj donne un item" }
-map{ id = "Mouvements/02_Random_movement/01" }
-map{ id = "Mouvements/03_Target_movement/01" }
-map{ id = "Mouvements/03_Target_movement/02" }
-map{ id = "Mouvements/03_Target_movement/03" }
-map{ id = "Mouvements/04_Path_movement/01" }
-map{ id = "Mouvements/04_Path_movement/02" }
-map{ id = "Mouvements/04_Path_movement/03" }
-map{ id = "Mouvements/04_Path_movement/04" }
-map{ id = "Mouvements/06_Path_finding_movement/01" }
-map{ id = "Mouvements/trp complexe01" }
-map{ id = "Mouvements/trp_complexe" }
-map{ id = "Portes/1" }
-map{ id = "Portes/2" }
-map{ id = "Portes/3" }
-map{ id = "Portes/4" }
-map{ id = "Portes/5" }
-map{ id = "Portes/6" }
-map{ id = "Portes/7" }
-map{ id = "Portes/7 bis" }
-map{ id = "Portes/8" }
-map{ id = "Tiles Dynamiques/01" }
-map{ id = "Tiles Dynamiques/02" }
-map{ id = "Tiles Dynamiques/03" }
-map{ id = "Tiles Dynamiques/04" }
-map{ id = "Tiles Dynamiques/05" }
-map{ id = "Tiles Dynamiques/06" }
-map{ id = "Tiles Dynamiques/07" }
-map{ id = "car" }
-map{ id = "double_couche" }
-map{ id = "exterieur 2" }
-map{ id = "first_map", description = "First map" }
+map{ id = "map_de_test/item_cerise" }
 map{ id = "monstre/Mowatulla" }
 map{ id = "monstre/aquadraco", description = "aquadraco" }
 map{ id = "monstre/arrghus" }
@@ -228,6 +223,7 @@ sprite{ id = "destructibles/grass_green_3", description = "Grass 3 (green)" }
 sprite{ id = "destructibles/grass_green_5", description = "Grass 5 (green)" }
 sprite{ id = "destructibles/grass_green_7", description = "Grass 7 (green)" }
 sprite{ id = "destructibles/grass_square", description = "Square grass" }
+sprite{ id = "destructibles/mur" }
 sprite{ id = "destructibles/pot", description = "Pot" }
 sprite{ id = "destructibles/pot_1", description = "Pot 1" }
 sprite{ id = "destructibles/rock_golden", description = "Rock Golden" }
@@ -865,12 +861,20 @@ sprite{ id = "shadows/shadow_big", description = "Big shadow" }
 sprite{ id = "shadows/shadow_big_dynamic", description = "Big dynamic shadow" }
 sprite{ id = "shadows/shadow_small", description = "Small shadow" }
 sprite{ id = "streams/arrow_stream", description = "Conveyor belt" }
+sprite{ id = "switches/cog_switch", description = "Gear Switch" }
+sprite{ id = "switches/cog_switch_small", description = "Cog Switch - Small" }
+sprite{ id = "switches/lightning_switch", description = "Lightning Switch" }
+sprite{ id = "switches/solid_switch", description = "Solid Switch" }
 sprite{ id = "switches/switch_1", description = "Switch 1" }
 sprite{ id = "switches/switch_2", description = "Switch 2" }
 sprite{ id = "switches/switch_3", description = "Switch 3" }
 sprite{ id = "switches/switch_4", description = "Switch 4" }
 sprite{ id = "switches/switch_5", description = "Switch 5" }
+sprite{ id = "switches/switch_plate", description = "Switch-Plate" }
+sprite{ id = "switches/switch_plate_wood", description = "Switch-Plate-Wood" }
 sprite{ id = "switches/switch_solid", description = "Solid switch" }
+sprite{ id = "switches/wind_switch", description = "Wind Switch" }
+sprite{ id = "switches/wind_switch_short", description = "Wind Switch-Short" }
 sprite{ id = "teletransporters/destination", description = "Destination of teletransporter" }
 sprite{ id = "teletransporters/teletransporter_blue", description = "Teletransporter (blue)" }
 sprite{ id = "teletransporters/teletransporter_green", description = "Teletransporter (green)" }
@@ -1039,6 +1043,7 @@ item{ id = "bomb_bag", description = "Bomb bag (small / large / huge)" }
 item{ id = "bomb_counter", description = "Bombs counter" }
 item{ id = "boomerang", description = "boomerang" }
 item{ id = "carquois", description = "carquois (30, 40, 50)" }
+item{ id = "cerise", description = "cerise" }
 item{ id = "dash", description = "Dash magie" }
 item{ id = "fire_rod", description = "Fire_rod magie" }
 item{ id = "fleches", description = "fleches" }
@@ -1370,6 +1375,7 @@ file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts/8_bit.png", author = "usr_share, Christopho", license = "Public domain" }
 file{ path = "fonts/enter_command.ttf", author = "Jeti", license = "CC BY 4.0" }
 file{ path = "items/arc.lua", author = "lionel", }
+file{ path = "items/cerise.lua", author = "Assistant", license = "GPL v3" }
 file{ path = "items/gem.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/hookshot.lua", author = "Christopho", license = "GPL v3" }
@@ -1631,6 +1637,7 @@ file{ path = "sprites/destructibles/grass_green_5.dat", author = "Diarandor", li
 file{ path = "sprites/destructibles/grass_green_7.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass_square.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/grass_square.png", author = "Bertram", license = "CC BY-SA 4.0" }
+file{ path = "sprites/destructibles/mur.dat", license = "CC BY-SA 4.0" }
 file{ path = "sprites/destructibles/plant_cabbage.png", author = "Diarandor, Max Mraz", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/destructibles/pot.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/destructibles/pot.png", license = "CC BY-SA 4.0" }
@@ -2776,13 +2783,22 @@ file{ path = "sprites/streams", license = "CC BY-SA 4.0" }
 file{ path = "sprites/streams/arrow_stream.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/streams/arrow_stream.png", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches", license = "CC BY-SA 4.0" }
+file{ path = "sprites/switches/cog_switch.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
+file{ path = "sprites/switches/cog_switch_small.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
+file{ path = "sprites/switches/lightning_switch.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
+file{ path = "sprites/switches/solid_switch.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/switches/switch.png", author = "Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches/switch_1.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches/switch_2.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches/switch_3.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches/switch_4.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
 file{ path = "sprites/switches/switch_5.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
+file{ path = "sprites/switches/switch_plate.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
+file{ path = "sprites/switches/switch_plate_wood.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/switches/switch_solid.dat", author = "Zane Kukta", license = "CC BY-SA 4.0" }
+file{ path = "sprites/switches/switches.png", license = "CC BY-SA 4.0" }
+file{ path = "sprites/switches/wind_switch.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
+file{ path = "sprites/switches/wind_switch_short.dat", author = "Max Mraz", license = "CC-BY-SA 4.0" }
 file{ path = "sprites/teletransporters", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/destination.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/teletransporters/teletransporter.png", author = "Diarandor", license = "CC BY-SA 4.0" }

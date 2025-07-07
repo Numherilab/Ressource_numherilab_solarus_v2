@@ -160,7 +160,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "Mouvements/03_Target_movement/01",
+  destination_map = "Boite_à_outils/v2/Mouvements/03_Target_movement/01",
   destination = "destination_2",
 }
 
