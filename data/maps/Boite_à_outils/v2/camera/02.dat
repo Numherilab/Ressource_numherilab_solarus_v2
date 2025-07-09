@@ -1441,15 +1441,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 448,
-  y = -16,
-  width = 16,
-  height = 320,
-  pattern = "208",
-}
-
-tile{
-  layer = 0,
   x = 464,
   y = 0,
   width = 16,

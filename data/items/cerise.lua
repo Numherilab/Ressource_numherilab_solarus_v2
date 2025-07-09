@@ -1,6 +1,6 @@
+-- Item cerise : objet de soin stocké dans l'inventaire
 local item = ...
 
--- Item cerise : objet de soin stocké dans l'inventaire
 function item:on_created()
   -- Configuration de base de l'objet
   self:set_shadow("small")                    -- Ombre petite
@@ -12,26 +12,22 @@ function item:on_created()
   self:set_savegame_variable("cerise")       -- Variable principale de sauvegarde
   self:set_amount_savegame_variable("cerise_amount") -- Variable pour stocker la quantité
   self:set_max_amount(99)                   -- Maximum 99 cerises
-  
-  -- Par défaut, pas de brandissement
-  self:set_brandish_when_picked(false)
 end
 
--- Fonction appelée quand le héros touche l'objet (avant ramassage)
-function item:on_pickable_interaction_item(pickable, hero_item)
-  -- Vérifier si c'est la première fois qu'on trouve une cerise
+-- Fonction appelée avant que l'item soit ramassé
+function item:on_obtaining(variant, savegame_variable)
   local game = self:get_game()
+  
+  -- Configurer le brandissement en fonction de si c'est la première fois
   if not game:get_value("cerise_found_once") then
-    -- Première fois : activer le brandissement
-    self:set_brandish_when_picked(true)
+    self:set_brandish_when_picked(true)  -- Brandir uniquement la première fois
   else
-    -- Pas la première fois : pas de brandissement
-    self:set_brandish_when_picked(false)
+    self:set_brandish_when_picked(false) -- Pas de brandissement pour les fois suivantes
   end
 end
 
 -- Fonction appelée quand le joueur obtient l'objet
-function item:on_obtaining(variant, savegame_variable)
+function item:on_obtained(variant, savegame_variable)
   local game = self:get_game()
   local current_amount = self:get_amount()
   
@@ -39,12 +35,15 @@ function item:on_obtaining(variant, savegame_variable)
   if not game:get_value("cerise_found_once") then
     -- Première fois : marquer comme trouvé et afficher le dialogue
     game:set_value("cerise_found_once", true)
+    -- Le dialogue s'affichera après l'animation de brandissement
     game:start_dialog("cerise_obtained")
   end
-  -- Sinon : pas de dialogue, ramassage silencieux
   
-  -- Ajouter une cerise à l'inventaire
-  self:set_amount(current_amount + 1)
+  -- Vérifier si on peut encore ajouter des cerises (limite maximale)
+  if current_amount < self:get_max_amount() then
+    -- Ajouter une cerise à l'inventaire
+    self:set_amount(current_amount + 1)
+  end
 end
 
 -- Fonction appelée quand le joueur utilise l'objet depuis l'inventaire
@@ -58,8 +57,8 @@ function item:on_using()
     local current_amount = self:get_amount()
     if current_amount > 0 then
       self:set_amount(current_amount - 1)
-      -- Ajouter 1 point de vie (4 unités = 1 cœur)
-      game:add_life(1)
+      -- Ajouter points de vie (4 unités = 1 cœur)
+      game:add_life(4)
       -- Son de guérison
       sol.audio.play_sound("heart")
       
@@ -70,11 +69,9 @@ function item:on_using()
       end
     end
   else
-    -- Le héros a déjà sa vie au maximum (toujours afficher ce message)
+    -- Le héros a déjà sa vie au maximum
     game:start_dialog("cerise_full_life")
   end
   
   self:set_finished()
 end
-
-

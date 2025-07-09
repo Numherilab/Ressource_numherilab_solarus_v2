@@ -1,6 +1,4 @@
 map{ id = "Boite_à_outils/v2/01_Map_centrale/base" }
-map{ id = "Boite_à_outils/v2/Cinematique/01" }
-map{ id = "Boite_à_outils/v2/Cinematique/02" }
 map{ id = "Boite_à_outils/v2/Enemies/01", description = "01 Enemie état initial" }
 map{ id = "Boite_à_outils/v2/Enemies/02", description = "02 Enemie mouvement avec sprite" }
 map{ id = "Boite_à_outils/v2/Enemies/03" }
@@ -67,14 +65,16 @@ map{ id = "Boite_à_outils/v2/Tiles Dynamiques/04" }
 map{ id = "Boite_à_outils/v2/Tiles Dynamiques/05" }
 map{ id = "Boite_à_outils/v2/Tiles Dynamiques/06" }
 map{ id = "Boite_à_outils/v2/Tiles Dynamiques/07" }
-map{ id = "Boite_à_outils/v2/camera/01" }
 map{ id = "Boite_à_outils/v2/camera/02" }
 map{ id = "Boite_à_outils/v2/hero/teste lit" }
 map{ id = "Boite_à_outils/v2/hero/teste_lit-2" }
 map{ id = "Boite_à_outils/v2/hero/testedehors" }
 map{ id = "Boite_à_outils/v2/hud/01" }
 map{ id = "Boite_à_outils/v2/menu_inventaire/01" }
+map{ id = "Boite_à_outils/v3/Cinematique/01" }
+map{ id = "Boite_à_outils/v3/Cinematique/02" }
 map{ id = "Boite_à_outils/v3/base_centrale" }
+map{ id = "Boite_à_outils/v3/camera/01" }
 map{ id = "Boite_à_outils/v3/les_dialogues/01", description = "01 dialogue sans scripte" }
 map{ id = "Boite_à_outils/v3/les_dialogues/02", description = "02 dialogue avec script et qu'est qu'une functon " }
 map{ id = "Boite_à_outils/v3/les_dialogues/03", description = "03 dialoque avec des tiles plus map vitrine" }
@@ -277,6 +277,7 @@ sprite{ id = "enemies/armes_enemies/red_duck_soldier_sword", description = "Enem
 sprite{ id = "enemies/armes_enemies/red_knight_soldier_sword", description = "Enemy: Knight Soldier (red) sword" }
 sprite{ id = "enemies/armes_enemies/red_pig_soldier_sword", description = "Enemy: Pig Soldier (red) sword" }
 sprite{ id = "enemies/armes_enemies/sword_slash", description = "Sword Slash" }
+sprite{ id = "enemies/boite_a_outils/crow_xxl", description = "enemies/boite_a_outils/crow_xxl_boite_a_outils" }
 sprite{ id = "enemies/boss/aquadraco/aquadracini", description = "Aquadracini" }
 sprite{ id = "enemies/boss/aquadraco/aquadraco", description = "Aquadraco" }
 sprite{ id = "enemies/boss/arrghus/arrghus_baby", description = "Arrghus Baby" }
@@ -1090,6 +1091,7 @@ enemy{ id = "animaux/red_hardhat_beetle", description = "Hardhat Beetle (red)" }
 enemy{ id = "animaux/red_helmasaur", description = "Helmasaur (red)" }
 enemy{ id = "animaux/shooty_fish", description = "Shooty Fish" }
 enemy{ id = "animaux/triangle_crab_red", description = "Triangle Crab-Red" }
+enemy{ id = "boite_a_outils/crow_xxl" }
 enemy{ id = "boss/Mowatulla/mini_mowatulla", description = "boss/Mowatulla/mini_mowatulla" }
 enemy{ id = "boss/Mowatulla/mowatulla", description = "boss/Mowatulla/mowatulla" }
 enemy{ id = "boss/Papillosaur_king/minillosaur_egg_fixed", description = "boss/Papillosaur_king/minillosaur_egg_fixed" }
@@ -1234,6 +1236,7 @@ enemy{ id = "vegetation/spitstump_small", description = "Spitstump - Small" }
 enemy{ id = "vegetation/stump_duck", description = "Stump Duck" }
 enemy{ id = "vegetation/tentacle", description = "Tentacle" }
 
+entity{ id = "ephemeral_effect", description = "Ephereral Effect" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "torch", description = "Torch" }
 
@@ -1370,6 +1373,7 @@ file{ path = "enemies/vegetation/seaweed_golem_1.lua", author = "Max Mraz", lice
 file{ path = "enemies/vegetation/spitstump_small.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/vegetation/stump_duck.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/vegetation/tentacle.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "entities/ephemeral_effect.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "entities/fire.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts/8_bit.png", author = "usr_share, Christopho", license = "Public domain" }

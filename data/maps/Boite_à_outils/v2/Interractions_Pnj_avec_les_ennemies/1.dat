@@ -123,7 +123,7 @@ enemy{
   y = 69,
   enabled_at_start = false,
   direction = 2,
-  breed = "goblin_green",
+  breed = "monstre_classique/goblin_green",
   savegame_variable = "map_2_slime_dead",
 }
 

@@ -6,26 +6,17 @@ que m'arrive t'il ?
 }
 
 dialog{
-  id = "defeat",
+  id = "boss_example_intro",
   text = [[
-sdsdqsd
+tu es à moi 
 ]],
 }
 
 dialog{
-  id = "item.potion_de_vie.non",
+  id = "cerise_full_life",
   text = [[
-tu es déjà en pleine
-forme !
-]],
-}
-
-dialog{
-  id = "premier_dialogue",
-  text = [[
-Bonjour, 
-bienvenue dans la séance
-d'initiation de solarus
+Vous avez déjà toute votre vie.
+Gardez cette cerise pour plus tard !
 ]],
 }
 
@@ -47,10 +38,52 @@ Vous récupérez un cœur !
 }
 
 dialog{
-  id = "cerise_full_life",
+  id = "cinematique.billy.cache_toi",
   text = [[
-Vous avez déjà toute votre vie.
-Gardez cette cerise pour plus tard !
+vas te cacher vite !
+je vais pourfendre cette
+vil créature
+]],
+}
+
+dialog{
+  id = "cinematique.billy.monstre",
+  text = [[
+t'es pas un monstre toi !! 
+tu as fais peur à mon fils 
+]],
+}
+
+dialog{
+  id = "cinematique.rob.papa",
+  text = [[
+papa ! papa ! papa ! 
+il y a un mézent pas bô
+qui est entré
+]],
+}
+
+dialog{
+  id = "defeat",
+  text = [[
+sdsdqsd
+]],
+}
+
+dialog{
+  id = "item.potion_de_vie.non",
+  text = [[
+tu es déjà en pleine
+forme !
+]],
+}
+
+dialog{
+  id = "premier_dialogue",
+  text = [[
+Bonjour, 
+bienvenue dans la séance
+d'initiation de solarus
 ]],
 }
 

@@ -307,7 +307,7 @@ function behavior:create(enemy, properties)
     local dy = {[0]=-0, [1]=8, [2]=0, [3]=-8}
     map:create_custom_entity{
       x=x+dx[sprite:get_direction()], y=y+dy[sprite:get_direction()], layer= layer, direction=0,height=16,width=16,
-      model="ephemeral_effect", sprite="entities/enemy_attack_flash",
+      model="ephemeral_effect", sprite="enemies/projectile/energy_ball_black",
     }
     local telegraph_time = properties.wind_up_time
     if properties.melee_attack_wind_up_time then telegraph_time = properties.melee_attack_wind_up_time end

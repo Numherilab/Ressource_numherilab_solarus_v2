@@ -18,4 +18,3 @@ function robert:on_interaction()
         dragonosaure:set_enabled(true)
     end
 end
-c

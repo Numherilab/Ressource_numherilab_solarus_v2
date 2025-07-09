@@ -10,6 +10,56 @@ properties{
 
 tile{
   layer = 0,
+  x = 912,
+  y = 64,
+  width = 32,
+  height = 128,
+  pattern = "wall.right.2",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 192,
+  width = 224,
+  height = 32,
+  pattern = "wall.down.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 16,
+  width = 208,
+  height = 32,
+  pattern = "wall.up.2",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 16,
+  width = 208,
+  height = 32,
+  pattern = "wall.up.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 48,
+  width = 32,
+  height = 144,
+  pattern = "wall.left.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
   x = 32,
   y = 48,
   width = 240,
@@ -1686,28 +1736,10 @@ tile{
 tile{
   layer = 0,
   x = 272,
-  y = 104,
-  width = 32,
-  height = 8,
-  pattern = "door2.right.left_side",
-}
-
-tile{
-  layer = 0,
-  x = 272,
   y = 120,
   width = 32,
   height = 80,
   pattern = "wall.right.2",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 128,
-  width = 32,
-  height = 8,
-  pattern = "door2.right.right_side",
 }
 
 tile{
@@ -2608,15 +2640,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 664,
-  y = 32,
-  width = 288,
-  height = 176,
-  pattern = "7",
-}
-
-tile{
-  layer = 0,
   x = 912,
   y = 128,
   width = 88,
@@ -2633,42 +2656,6 @@ tile{
   height = 8,
   pattern = "86",
   tileset = "01 Max Mraz/01 oceanset_inside",
-}
-
-tile{
-  layer = 0,
-  x = 912,
-  y = 192,
-  width = 32,
-  height = 32,
-  pattern = "corner.in.2",
-}
-
-tile{
-  layer = 0,
-  x = 912,
-  y = 32,
-  width = 32,
-  height = 80,
-  pattern = "wall.right.1",
-}
-
-tile{
-  layer = 0,
-  x = 672,
-  y = 192,
-  width = 240,
-  height = 32,
-  pattern = "wall.down.2",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 128,
-  width = 32,
-  height = 80,
-  pattern = "wall.left.1",
 }
 
 tile{
@@ -2683,15 +2670,6 @@ tile{
 tile{
   layer = 0,
   x = 912,
-  y = 120,
-  width = 32,
-  height = 80,
-  pattern = "wall.right.2",
-}
-
-tile{
-  layer = 0,
-  x = 912,
   y = 128,
   width = 32,
   height = 8,
@@ -2701,46 +2679,10 @@ tile{
 tile{
   layer = 0,
   x = 912,
-  y = 16,
-  width = 32,
-  height = 32,
-  pattern = "corner.in.1",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 192,
-  width = 32,
-  height = 32,
-  pattern = "corner.in.3",
-}
-
-tile{
-  layer = 0,
-  x = 912,
   y = 112,
   width = 32,
   height = 16,
   pattern = "bomb_door.right.low",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 16,
-  width = 112,
-  height = 32,
-  pattern = "wall.up.1",
-}
-
-tile{
-  layer = 0,
-  x = 800,
-  y = 16,
-  width = 112,
-  height = 32,
-  pattern = "wall.up.1",
 }
 
 tile{
@@ -2765,15 +2707,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 656,
-  y = 16,
-  width = 32,
-  height = 32,
-  pattern = "corner.in.4",
-}
-
-tile{
-  layer = 0,
   x = 792,
   y = 16,
   width = 16,
@@ -2788,15 +2721,6 @@ tile{
   width = 32,
   height = 8,
   pattern = "door2.left.left_side",
-}
-
-tile{
-  layer = 0,
-  x = 656,
-  y = 32,
-  width = 32,
-  height = 80,
-  pattern = "wall.left.1",
 }
 
 tile{
@@ -17437,6 +17361,271 @@ tile{
   tileset = "01 Max Mraz/indoors_stone",
 }
 
+tile{
+  layer = 0,
+  x = 656,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.4",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.3",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 192,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.2",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 16,
+  width = 32,
+  height = 32,
+  pattern = "corner.in.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 48,
+  width = 32,
+  height = 128,
+  pattern = "wall.right.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "ground1.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "17",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "18",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 720,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.2",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.3",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "ground1.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "17",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "18",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.2",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 800,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.3",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "ground1.1",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "17",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "18",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.2",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.3",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.2",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 48,
+  width = 16,
+  height = 144,
+  pattern = "ground1.3",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "111",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "111",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 56,
+  width = 24,
+  height = 16,
+  pattern = "161",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 104,
+  width = 32,
+  height = 8,
+  pattern = "door2.right.left_side",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "door2.right.right_side",
+}
+
 destination{
   name = "destination",
   layer = 0,
@@ -17497,6 +17686,23 @@ destination{
   name = "destination_salle_dialogue",
   layer = 0,
   x = 160,
+  y = 61,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 792,
+  y = 32,
+  width = 16,
+  height = 16,
+  destination_map = "Boite_à_outils/v3/Cinematique/01",
+}
+
+destination{
+  name = "destination_cinematique",
+  layer = 0,
+  x = 800,
   y = 61,
   direction = 3,
 }
@@ -22373,6 +22579,82 @@ tile{
   height = 24,
   pattern = "583",
   tileset = "01 Max Mraz/indoors_stone",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "112",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "112",
+}
+
+tile{
+  layer = 1,
+  x = 888,
+  y = 48,
+  width = 24,
+  height = 8,
+  pattern = "162",
+}
+
+tile{
+  layer = 1,
+  x = 888,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "327",
+}
+
+tile{
+  layer = 1,
+  x = 768,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "16",
+  tileset = "01 Max Mraz/indoors_cabin",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "57_5",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 104,
+  width = 16,
+  height = 32,
+  pattern = "57_6",
+  tileset = "01 Max Mraz/01 oceanset_inside",
 }
 
 separator{
