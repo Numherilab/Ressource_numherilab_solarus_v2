@@ -84,7 +84,9 @@ map{ id = "Boite_à_outils/v3/pnj_items_monnaie/01", description = "01 pnj donne
 map{ id = "Boite_à_outils/v3/pnj_items_monnaie/02", description = "02 pnj donne de l'argent, ajout d'une variable + explacation variable et explication des valeurs booleenne" }
 map{ id = "Boite_à_outils/v3/pnj_items_monnaie/03", description = "03 pnj donne monnaie + ajoutd'un dialogue de refus" }
 map{ id = "Boite_à_outils/v3/pnj_items_monnaie/04", description = "04 pnj donne un item" }
+map{ id = "map_de_test/allie" }
 map{ id = "map_de_test/item_cerise" }
+map{ id = "map_de_test/v" }
 map{ id = "monstre/Mowatulla" }
 map{ id = "monstre/aquadraco", description = "aquadraco" }
 map{ id = "monstre/arrghus" }
@@ -190,6 +192,7 @@ sprite{ id = "blocks/block_purple", description = "Block (purple)" }
 sprite{ id = "blocks/block_red", description = "Block (red)" }
 sprite{ id = "blocks/block_violet", description = "Block (violet)" }
 sprite{ id = "blocks/block_yellow", description = "Block (yellow)" }
+sprite{ id = "blocks/tonneau", description = "Tonneau" }
 sprite{ id = "chests/chest_blue", description = "Chest (blue)" }
 sprite{ id = "chests/chest_brown", description = "Chest (brown)" }
 sprite{ id = "chests/chest_green", description = "Chest (green)" }
@@ -522,6 +525,7 @@ sprite{ id = "menus/inventory/selector", description = "Selector" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
+sprite{ id = "moving_platform/tonneau" }
 sprite{ id = "npc/big_guy_1", description = "npc/big_guy_1" }
 sprite{ id = "npc/billy", description = "Billy" }
 sprite{ id = "npc/black_knight_soldier", description = "Black Knight Soldier" }
@@ -1236,8 +1240,10 @@ enemy{ id = "vegetation/spitstump_small", description = "Spitstump - Small" }
 enemy{ id = "vegetation/stump_duck", description = "Stump Duck" }
 enemy{ id = "vegetation/tentacle", description = "Tentacle" }
 
+entity{ id = "ally", description = "ally" }
 entity{ id = "ephemeral_effect", description = "Ephereral Effect" }
 entity{ id = "fire", description = "Fire" }
+entity{ id = "moving_platform", description = "Moving Platform" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }
@@ -1373,8 +1379,10 @@ file{ path = "enemies/vegetation/seaweed_golem_1.lua", author = "Max Mraz", lice
 file{ path = "enemies/vegetation/spitstump_small.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/vegetation/stump_duck.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "enemies/vegetation/tentacle.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "entities/ally.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "entities/ephemeral_effect.lua", author = "Max Mraz", license = "MIT" }
 file{ path = "entities/fire.lua", author = "Christopho", license = "GPL v3" }
+file{ path = "entities/moving_platform.lua", author = "Wizard Wizzle, Diarandor", license = "GPL v3" }
 file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts/8_bit.png", author = "usr_share, Christopho", license = "Public domain" }
 file{ path = "fonts/enter_command.ttf", author = "Jeti", license = "CC BY 4.0" }
@@ -1601,6 +1609,8 @@ file{ path = "sprites/blocks/block_purple.dat", author = "Diarandor", license = 
 file{ path = "sprites/blocks/block_red.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/blocks/block_violet.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/blocks/block_yellow.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/blocks/tonneau.dat", license = "CC BY-SA 4.0" }
+file{ path = "sprites/blocks/tonneau.png", license = "CC BY-SA 4.0" }
 file{ path = "sprites/chests", license = "CC BY-SA 4.0" }
 file{ path = "sprites/chests/chest.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/chests/chest_blue.dat", author = "Diarandor", license = "CC BY-SA 4.0" }

@@ -9,4 +9,5 @@ require("scripts/hud/hud")
 require("scripts/menus/dialog_box")
 require("scripts/meta/enemy")
 require("scripts/meta/camera")
+require("scripts/meta/hero")
 return true

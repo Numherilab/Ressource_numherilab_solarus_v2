@@ -10,10 +10,10 @@ properties{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 32,
-  width = 24,
-  height = 56,
+  x = 48,
+  y = 16,
+  width = 88,
+  height = 72,
   pattern = "water",
 }
 
@@ -27,8 +27,8 @@ pickable{
 destination{
   name = "destination",
   layer = 0,
-  x = 160,
-  y = 69,
+  x = 296,
+  y = 101,
   direction = 1,
 }
 
@@ -58,5 +58,30 @@ pickable{
   x = 264,
   y = 69,
   treasure_name = "cerise",
+}
+
+custom_entity{
+  name = "bibou",
+  layer = 0,
+  x = 93,
+  y = 61,
+  width = 24,
+  height = 32,
+  origin_x = 13,
+  origin_y = 29,
+  direction = 0,
+  sprite = "moving_platform/tonneau",
+  model = "moving_platform",
+}
+
+teletransporter{
+  layer = 0,
+  x = 304,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "map_de_test/allie",
+  destination = "destination",
+  sprite = "teletransporters/teletransporter_blue",
 }
 

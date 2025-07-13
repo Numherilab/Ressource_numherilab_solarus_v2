@@ -79,6 +79,30 @@ forme !
 }
 
 dialog{
+  id = "maptest.boubou.non",
+  text = [[
+pas grave
+]],
+}
+
+dialog{
+  id = "maptest.boubou.oui",
+  text = [[
+ok
+]],
+}
+
+dialog{
+  id = "maptest.boubou.suivre",
+  question = "1",
+  text = [[
+je te suis 
+oui
+non
+]],
+}
+
+dialog{
   id = "premier_dialogue",
   text = [[
 Bonjour, 
