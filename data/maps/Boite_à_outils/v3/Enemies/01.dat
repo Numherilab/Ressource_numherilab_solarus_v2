@@ -1,0 +1,207 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 160,
+  pattern = "5",
+tileset = "01 Max Mraz/01 oceanset_inside",}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 224,
+  height = 32,
+  pattern = "block_wall_18",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "block_wall_15",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "block_wall_21",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 200,
+  width = 224,
+  height = 32,
+  pattern = "block_wall_13",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_22",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_16",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_14",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "51_4",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "52_3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "50_4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "51_3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "50_3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "52_4",
+}
+
+enemy{
+  layer = 0,
+  x = 144,
+  y = 93,
+  direction = 0,
+  breed = "tuto/01globul",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  destination_map = "01_Map_centrale/base",
+  destination = "sortie_ennemie",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "Enemies/02",
+  destination = "destination_enemies_1",
+}
+
+destination{
+  name = "destination_enemies_2",
+  layer = 0,
+  x = 160,
+  y = 53,
+  direction = 1,
+}
+
+destination{
+  name = "destination_enemies_1",
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "53_4",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 8,
+  width = 32,
+  height = 16,
+  pattern = "53_3",
+}
+

@@ -1,0 +1,1684 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 648,
+  height = 320,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 640,
+  height = 176,
+  pattern = "20_14",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = -8,
+  width = 640,
+  height = 32,
+  pattern = "wall.down.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 200,
+  width = 128,
+  height = 16,
+  pattern = "water_edge.up",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 128,
+  width = 80,
+  height = 8,
+  pattern = "238",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 96,
+  width = 112,
+  height = 16,
+  pattern = "234",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "235",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 112,
+  width = 80,
+  height = 16,
+  pattern = "236",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "237",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "68",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "64",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "63",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "65",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 184,
+  width = 8,
+  height = 16,
+  pattern = "55",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "66",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "54",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "62",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 152,
+  width = 8,
+  height = 16,
+  pattern = "52",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "67",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "60",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "61",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 152,
+  width = 8,
+  height = 16,
+  pattern = "51",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "53",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 184,
+  width = 8,
+  height = 16,
+  pattern = "56",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "pillar.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 216,
+  width = 48,
+  height = 8,
+  pattern = "pier.shadow",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "116",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "120",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "119",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "118",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "121",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "117",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 224,
+  width = 48,
+  height = 16,
+  pattern = "deep_water",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 216,
+  width = 208,
+  height = 112,
+  pattern = "deep_water",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 160,
+  height = 16,
+  pattern = "water_edge.up",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 200,
+  width = 464,
+  height = 128,
+  pattern = "deep_water",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "post_bottom.water",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "post_bottom.water",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 192,
+  width = 96,
+  height = 16,
+  pattern = "94",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "93_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "93",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 192,
+  width = 448,
+  height = 16,
+  pattern = "94",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 32,
+  width = 32,
+  height = 24,
+  pattern = "211",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = -8,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = -8,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = -8,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 152,
+  width = 112,
+  height = 16,
+  pattern = "84",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 152,
+  width = 464,
+  height = 16,
+  pattern = "85",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 224,
+  width = 32,
+  height = 16,
+  pattern = "1920",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 24,
+  width = 24,
+  height = 16,
+  pattern = "1723",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 24,
+  width = 24,
+  height = 16,
+  pattern = "1723",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 40,
+  width = 24,
+  height = 16,
+  pattern = "1723",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 40,
+  width = 24,
+  height = 16,
+  pattern = "1723",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 24,
+  width = 24,
+  height = 16,
+  pattern = "1723",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 136,
+  width = 40,
+  height = 16,
+  pattern = "694",
+  tileset = "01 Max Mraz/overworld_yarrowmouth",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 136,
+  width = 40,
+  height = 16,
+  pattern = "694",
+  tileset = "01 Max Mraz/overworld_yarrowmouth",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = -8,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = -8,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = -8,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = -8,
+  width = 32,
+  height = 32,
+  pattern = "corner.out.1",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 24,
+  width = 32,
+  height = 96,
+  pattern = "wall.left.2",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 128,
+  width = 24,
+  height = 16,
+  pattern = "1723",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "68",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "64",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "63",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "65",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 184,
+  width = 8,
+  height = 16,
+  pattern = "55",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "66",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "54",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "62",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 152,
+  width = 8,
+  height = 16,
+  pattern = "52",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "67",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "60",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "61",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 152,
+  width = 8,
+  height = 16,
+  pattern = "51",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "53",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 184,
+  width = 8,
+  height = 16,
+  pattern = "56",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "93_2",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 568,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "93",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "66",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 192,
+  width = 16,
+  height = 8,
+  pattern = "61",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "61",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 192,
+  width = 16,
+  height = 8,
+  pattern = "62",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "62",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 528,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "64",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "63",
+  tileset = "oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "65",
+  tileset = "oceanset_outside",
+}
+
+destination{
+  name = "destination_grotte",
+  layer = 0,
+  x = 24,
+  y = 29,
+  direction = 3,
+}
+
+teletransporter{
+  name = "destination_castle_out",
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 16,
+  height = 16,
+  destination_map = "Beach_1",
+  destination = "destination_stairs_down1",
+}
+
+block{
+  layer = 0,
+  x = 296,
+  y = 133,
+  sprite = "entities/chest",
+  pushable = true,
+  pullable = true,
+}
+
+separator{
+  layer = 0,
+  x = 320,
+  y = -8,
+  width = 16,
+  height = 256,
+}
+
+destination{
+  name = "destination_grotte_3",
+  layer = 0,
+  x = 576,
+  y = 29,
+  direction = 3,
+}
+
+teletransporter{
+  name = "destination_castle_out_3",
+  layer = 0,
+  x = 568,
+  y = 8,
+  width = 16,
+  height = 16,
+  destination_map = "Beach_1",
+  destination = "destination_castle",
+}
+
+dynamic_tile{
+  name = "fagot_1",
+  layer = 0,
+  x = 472,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_2",
+  layer = 0,
+  x = 544,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_3",
+  layer = 0,
+  x = 512,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_4",
+  layer = 0,
+  x = 592,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_6",
+  layer = 0,
+  x = 440,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_7",
+  layer = 0,
+  x = 520,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_8",
+  layer = 0,
+  x = 536,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_9",
+  layer = 0,
+  x = 592,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_10",
+  layer = 0,
+  x = 592,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+dynamic_tile{
+  name = "fagot_11",
+  layer = 0,
+  x = 592,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+sensor{
+  name = "sensor_light",
+  layer = 0,
+  x = 544,
+  y = 53,
+  width = 48,
+  height = 48,
+}
+
+block{
+  layer = 0,
+  x = 376,
+  y = 109,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 352,
+  y = 69,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 376,
+  y = 69,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 360,
+  y = 85,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 384,
+  y = 85,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 352,
+  y = 101,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 352,
+  y = 117,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 368,
+  y = 133,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 352,
+  y = 149,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+block{
+  layer = 0,
+  x = 376,
+  y = 149,
+  sprite = "blocks/tonneau",
+  pushable = true,
+  pullable = true,
+}
+
+sensor{
+  name = "sensor_dialog",
+  layer = 0,
+  x = 448,
+  y = 45,
+  width = 16,
+  height = 96,
+}
+
+dynamic_tile{
+  name = "fagot_5",
+  layer = 0,
+  x = 392,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "42",
+}
+
+jumper{
+  layer = 0,
+  x = 128,
+  y = 208,
+  width = 32,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+dynamic_tile{
+  name = "tonneautile",
+  layer = 0,
+  x = 136,
+  y = 240,
+  width = 24,
+  height = 24,
+  pattern = "164",
+}
+
+sensor{
+  name = "tonneau",
+  layer = 0,
+  x = 136,
+  y = 253,
+  width = 32,
+  height = 64,
+}
+
+sensor{
+  name = "tonneau_end",
+  layer = 0,
+  x = 520,
+  y = 205,
+  width = 48,
+  height = 16,
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 80,
+  width = 96,
+  height = 16,
+  pattern = "239",
+  tileset = "01 Max Mraz/temple_2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "pillar.middle",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top_3",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top_5",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "pillar.middle",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top_3",
+  tileset = "01 Max Mraz/cave_2",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top_2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top_6",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top_1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "pillar.middle",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "pillar.top_1",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "pillar.middle",
+}
+
+tile{
+  layer = 1,
+  x = 472,
+  y = 24,
+  width = 32,
+  height = 8,
+  pattern = "212",
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 1,
+  x = 480,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "1643",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 208,
+  width = 32,
+  height = 16,
+  pattern = "1921",
+  tileset = "01 Max Mraz/oceanheart_outdoors_1",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 8,
+  width = 24,
+  height = 16,
+  pattern = "1736",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 368,
+  y = 8,
+  width = 24,
+  height = 16,
+  pattern = "1736",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 352,
+  y = 24,
+  width = 24,
+  height = 16,
+  pattern = "1736",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 376,
+  y = 24,
+  width = 24,
+  height = 16,
+  pattern = "1736",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 392,
+  y = 8,
+  width = 24,
+  height = 16,
+  pattern = "1736",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 120,
+  width = 40,
+  height = 16,
+  pattern = "695",
+  tileset = "01 Max Mraz/overworld_yarrowmouth",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 120,
+  width = 40,
+  height = 16,
+  pattern = "695",
+  tileset = "01 Max Mraz/overworld_yarrowmouth",
+}
+
+tile{
+  layer = 1,
+  x = 608,
+  y = 120,
+  width = 32,
+  height = 32,
+  pattern = "corner.out.2",
+}
+
+tile{
+  layer = 1,
+  x = 400,
+  y = 112,
+  width = 24,
+  height = 16,
+  pattern = "1736",
+  tileset = "01 Max Mraz/overworld_oakhaven",
+}
+
+dynamic_tile{
+  name = "fagot_allume",
+  layer = 1,
+  x = 472,
+  y = 120,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_1",
+  layer = 1,
+  x = 472,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_2",
+  layer = 1,
+  x = 544,
+  y = 120,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_4",
+  layer = 1,
+  x = 544,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_3",
+  layer = 1,
+  x = 512,
+  y = 120,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_3",
+  layer = 1,
+  x = 512,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_4",
+  layer = 1,
+  x = 592,
+  y = 88,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_5",
+  layer = 1,
+  x = 592,
+  y = 88,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_6",
+  layer = 1,
+  x = 440,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_11",
+  layer = 1,
+  x = 440,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_7",
+  layer = 1,
+  x = 520,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_10",
+  layer = 1,
+  x = 520,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_8",
+  layer = 1,
+  x = 536,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_9",
+  layer = 1,
+  x = 536,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_9",
+  layer = 1,
+  x = 592,
+  y = 0,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_8",
+  layer = 1,
+  x = 592,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_10",
+  layer = 1,
+  x = 592,
+  y = 64,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_6",
+  layer = 1,
+  x = 592,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_11",
+  layer = 1,
+  x = 592,
+  y = 32,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_7",
+  layer = 1,
+  x = 592,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+dynamic_tile{
+  name = "fagot_allume_5",
+  layer = 1,
+  x = 392,
+  y = 120,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  pattern = "44",
+}
+
+dynamic_tile{
+  name = "fagot_eteint_2",
+  layer = 1,
+  x = 392,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+

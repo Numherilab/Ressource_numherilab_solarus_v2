@@ -1,0 +1,307 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 496,
+  min_layer = 0,
+  max_layer = 2,
+ tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 280,
+  width = 256,
+  height = 192,
+  pattern = "20_20",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 256,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_18",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 280,
+  width = 32,
+  height = 192,
+  pattern = "block_wall_15",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 280,
+  width = 32,
+  height = 192,
+  pattern = "block_wall_21",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 464,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_13",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 256,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_22",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 256,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 464,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_16",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 464,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_14",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 464,
+  width = 16,
+  height = 32,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 256,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 256,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 256,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 24,
+  width = 256,
+  height = 192,
+  pattern = "20_20",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_18",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 24,
+  width = 32,
+  height = 192,
+  pattern = "block_wall_15",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 24,
+  width = 32,
+  height = 192,
+  pattern = "block_wall_21",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 32,
+  pattern = "block_wall_13",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_22",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_17",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_16",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 208,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_14",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 208,
+  width = 8,
+  height = 32,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 208,
+  width = 16,
+  height = 32,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 208,
+  width = 8,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 0,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 0,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 240,
+  width = 320,
+  height = 16,
+  pattern = "15",
+}
+
+destination{
+  name = "destination_01",
+  layer = 0,
+  x = 160,
+  y = 461,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 464,
+  width = 16,
+  height = 16,
+  destination_map = "Cinematique/01",
+  destination = "destination_cinematique_02",
+}
+

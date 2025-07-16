@@ -114,6 +114,7 @@ function map:on_started()
     sol.surface.create("Info/les_dialogues/map04_4.png"),
     sol.surface.create("Info/les_dialogues/map04_5.png"),
     sol.surface.create("Info/les_dialogues/map04_6.png"),
+    sol.surface.create("Info/les_dialogues/map04_6prout.png"),
 
 
   }

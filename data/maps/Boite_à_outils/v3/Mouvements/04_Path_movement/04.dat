@@ -1,0 +1,219 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 160,
+  pattern = "5",
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 224,
+  height = 32,
+  pattern = "35_3",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "41_3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "37_3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 200,
+  width = 224,
+  height = 32,
+  pattern = "39_3",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "34_3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "36_3",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "40_3",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "38_3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+}
+
+destination{
+  name = "destination_1",
+  layer = 0,
+  x = 168,
+  y = 189,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 160,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "Boite_à_outils/v3/Mouvements/04_Path_movement/03",
+  destination = "destination_1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 160,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "01_Map_centrale/base",
+  destination = "destination_path_movement_04",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 168,
+  y = 53,
+  direction = 3,
+}
+
+npc{
+  name = "brigitte",
+  layer = 0,
+  x = 168,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_1a",
+}
+
+sensor{
+  name = "capteur_1",
+  layer = 0,
+  x = 144,
+  y = 141,
+  width = 64,
+  height = 32,
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "53",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 8,
+  width = 32,
+  height = 16,
+  pattern = "53_2",
+}
+

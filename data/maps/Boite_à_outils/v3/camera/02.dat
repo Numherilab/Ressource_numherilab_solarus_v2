@@ -1,0 +1,330 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/02 oceanset_outside",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 352,
+  height = 240,
+  pattern = "grass_light",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "74",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 120,
+  width = 16,
+  height = 48,
+  pattern = "68",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "75",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 104,
+  width = 64,
+  height = 16,
+  pattern = "69",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "73",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 168,
+  width = 64,
+  height = 16,
+  pattern = "71",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "72",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 120,
+  width = 64,
+  height = 48,
+  pattern = "67",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 120,
+  width = 16,
+  height = 48,
+  pattern = "70",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 48,
+  width = 16,
+  height = 24,
+  pattern = "199_4",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 48,
+  width = 16,
+  height = 24,
+  pattern = "200_4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 48,
+  width = 16,
+  height = 24,
+  pattern = "201_4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "roof_right_3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "roof_br_3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "roof_3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "roof_bottom_3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "roof_dl_3",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "roof_left_3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 32,
+  width = 8,
+  height = 40,
+  pattern = "25",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 32,
+  width = 16,
+  height = 40,
+  pattern = "26",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 32,
+  width = 8,
+  height = 40,
+  pattern = "24",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 72,
+  width = 32,
+  height = 8,
+  pattern = "27",
+  tileset = "01 Max Mraz/trillium_town",
+}
+
+switch{
+  name = "tremblementdeterre",
+  layer = 0,
+  x = 152,
+  y = 136,
+  subtype = "walkable",
+  sprite = "switches/switch_plate",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 205,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 208,
+  width = 16,
+  height = 16,
+  destination_map = "Boite_à_outils/v3/camera/01",
+  destination = "destination_2",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 56,
+  width = 16,
+  height = 16,
+  destination_map = "Boite_à_outils/v3/camera/02",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 160,
+  y = 85,
+  direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = -16,
+  width = 16,
+  height = 16,
+  pattern = "roof_ur_3",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = -16,
+  width = 16,
+  height = 16,
+  pattern = "roof_top_edge_3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = -16,
+  width = 16,
+  height = 16,
+  pattern = "roof_ul_corner_3",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "roof_ul_corner_4",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "roof_ur_4",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "roof_top_edge_4",
+}
+

@@ -10,4 +10,7 @@ require("scripts/menus/dialog_box")
 require("scripts/meta/enemy")
 require("scripts/meta/camera")
 require("scripts/meta/hero")
+require("scripts/gameover/gameover")
+--require("scripts/checkpoint/checkpoint_actions")
+
 return true

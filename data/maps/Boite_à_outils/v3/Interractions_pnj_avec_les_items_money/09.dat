@@ -1,0 +1,240 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 160,
+  pattern = "20_2",
+  tileset = "Max Mraz/01 oceanset_inside",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 224,
+  height = 32,
+  pattern = "block_wall_1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "block_wall_7",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 32,
+  height = 160,
+  pattern = "block_wall_3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 200,
+  width = 224,
+  height = 32,
+  pattern = "block_wall_5",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "block_wall",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 8,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_6",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 32,
+  height = 32,
+  pattern = "block_wall_4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 32,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 32,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 32,
+  pattern = "52_2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "50_2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 8,
+  width = 8,
+  height = 32,
+  pattern = "51_2",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  destination_map = "Interractions_pnj_avec_les_items_money/08",
+  destination = "destination_remove_money_2",
+}
+
+destination{
+  name = "destination_variable_money_trésors_1",
+  layer = 0,
+  x = 160,
+  y = 197,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "Interractions_pnj_avec_les_items_money/10",
+  destination = "destination_remove_money_1",
+}
+
+destination{
+  name = "destination_variable_money_trésors_2",
+  layer = 0,
+  x = 160,
+  y = 53,
+  direction = 3,
+}
+
+npc{
+  name = "Leo",
+  layer = 0,
+  x = 88,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/billy",
+}
+
+npc{
+  name = "Merik",
+  layer = 0,
+  x = 160,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/man/man_17.1",
+}
+
+npc{
+  name = "Ronan",
+  layer = 0,
+  x = 232,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/man/man_1.8",
+}
+
+npc{
+  name = "patrick",
+  layer = 0,
+  x = 160,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/juglan",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 16,
+  pattern = "53",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 8,
+  width = 32,
+  height = 16,
+  pattern = "53_2",
+}
+

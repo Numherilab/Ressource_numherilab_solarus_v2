@@ -1,0 +1,60 @@
+animation{
+  name = "walking",
+  src_image = "blocks/tonneau.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
+animation{
+  name = "jumping",
+  src_image = "blocks/tonneau.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
+animation{
+  name = "plunging_water",
+  src_image = "blocks/tonneau.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
+animation{
+  name = "stopped",
+  src_image = "blocks/tonneau.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
+animation{
+  name = "swimming_slow",
+  src_image = "blocks/tonneau.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
+animation{
+  name = "swimming_stopped",
+  src_image = "blocks/tonneau.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 32, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}

@@ -8,3 +8,32 @@ properties{
   tileset = "0",
 }
 
+destination{
+  name = "destination",
+  layer = 0,
+  x = 112,
+  y = 69,
+  direction = 1,
+}
+
+npc{
+  name = "bobo",
+  layer = 0,
+  x = 168,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "animals/meow_orange",
+}
+
+teletransporter{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "map_de_test/Grotte",
+  destination = "destination_grotte",
+  sprite = "teletransporters/teletransporter_green",
+}
+
