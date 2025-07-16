@@ -25,7 +25,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -35,7 +35,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -45,7 +45,7 @@ tile{
   width = 32,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -55,7 +55,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -65,7 +65,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -75,7 +75,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -85,7 +85,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -95,7 +95,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -105,7 +105,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -115,7 +115,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -125,7 +125,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -135,7 +135,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -145,7 +145,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -155,7 +155,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -165,7 +165,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -175,7 +175,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -185,7 +185,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -195,7 +195,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -205,7 +205,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -215,7 +215,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -225,7 +225,7 @@ tile{
   width = 16,
   height = 8,
   pattern = "grass_detail_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -235,7 +235,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "flower_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -245,7 +245,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "flower_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -255,7 +255,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "flower_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -265,7 +265,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "flower_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -275,7 +275,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "flower_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -285,7 +285,7 @@ tile{
   width = 192,
   height = 32,
   pattern = "dirt_variant_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -295,7 +295,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "dirt",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -305,7 +305,7 @@ tile{
   width = 32,
   height = 96,
   pattern = "dirt_variant_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -315,7 +315,7 @@ tile{
   width = 160,
   height = 32,
   pattern = "dirt_variant_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -325,7 +325,7 @@ tile{
   width = 32,
   height = 96,
   pattern = "dirt_variant_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -335,7 +335,7 @@ tile{
   width = 192,
   height = 8,
   pattern = "dirt_edge_2",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -345,7 +345,7 @@ tile{
   width = 8,
   height = 128,
   pattern = "dirt_edge_8",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -355,7 +355,7 @@ tile{
   width = 8,
   height = 128,
   pattern = "dirt_edge_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -365,7 +365,7 @@ tile{
   width = 96,
   height = 8,
   pattern = "dirt_edge_6",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -375,7 +375,7 @@ tile{
   width = 8,
   height = 32,
   pattern = "dirt_edge_4",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -385,7 +385,7 @@ tile{
   width = 8,
   height = 32,
   pattern = "dirt_edge_8",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -395,7 +395,7 @@ tile{
   width = 96,
   height = 8,
   pattern = "dirt_edge_2",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -405,7 +405,7 @@ tile{
   width = 192,
   height = 8,
   pattern = "dirt_edge_6",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -415,7 +415,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "dirt_edge_1",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -425,7 +425,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "dirt_edge_3",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -435,7 +435,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "dirt_edge_9",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -445,7 +445,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "dirt_edge_10",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -455,7 +455,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "dirt_edge_12",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -465,7 +465,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "dirt_edge_11",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -475,7 +475,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "dirt_edge_7",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -485,7 +485,7 @@ tile{
   width = 8,
   height = 8,
   pattern = "dirt_edge_5",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -495,7 +495,7 @@ tile{
   width = 8,
   height = 80,
   pattern = "117",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -505,7 +505,7 @@ tile{
   width = 8,
   height = 80,
   pattern = "117",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -515,7 +515,7 @@ tile{
   width = 8,
   height = 80,
   pattern = "117",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -525,7 +525,7 @@ tile{
   width = 8,
   height = 80,
   pattern = "117",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -535,7 +535,7 @@ tile{
   width = 8,
   height = 80,
   pattern = "117",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{
@@ -545,7 +545,7 @@ tile{
   width = 8,
   height = 80,
   pattern = "117",
-  tileset = "oceanset_outside",
+    tileset = "01 Max Mraz/02 oceanset_outside",
 }
 
 tile{

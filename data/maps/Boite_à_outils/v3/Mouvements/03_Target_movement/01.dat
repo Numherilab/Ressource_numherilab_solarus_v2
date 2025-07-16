@@ -16,7 +16,6 @@ tile{
   height = 160,
   pattern = "10",
     tileset = "01 Max Mraz/01 oceanset_inside",
-",
 }
 
 tile{

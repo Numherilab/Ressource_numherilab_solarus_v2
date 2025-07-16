@@ -150,7 +150,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "291",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -160,7 +160,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "296",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -170,7 +170,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "290",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -180,7 +180,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "294",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -190,7 +190,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "292",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -200,7 +200,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "295",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -210,7 +210,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "293",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -220,7 +220,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "288",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 tile{
@@ -230,7 +230,7 @@ tile{
   width = 16,
   height = 16,
   pattern = "289",
-  tileset = "indoors_cabin",
+  tileset = "01 Max Mraz/indoors_cabin",
 }
 
 teletransporter{
