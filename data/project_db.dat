@@ -79,6 +79,7 @@ map{ id = "Boite_à_outils/v3/pnj_items_monnaie/03", description = "03 pnj donne
 map{ id = "Boite_à_outils/v3/pnj_items_monnaie/04", description = "04 pnj donne un item" }
 map{ id = "map_de_test/Grotte" }
 map{ id = "map_de_test/ally" }
+map{ id = "map_de_test/animal" }
 map{ id = "map_de_test/item_cerise" }
 map{ id = "map_de_test/lit" }
 map{ id = "map_de_test/v" }

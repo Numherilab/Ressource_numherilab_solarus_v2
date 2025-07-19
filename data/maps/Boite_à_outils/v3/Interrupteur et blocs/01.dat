@@ -5,7 +5,7 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-tileset = "01 Max Mraz/01 oceanset_inside",
+  tileset = "01 Max Mraz/01 oceanset_inside",
 }
 
 tile{
@@ -15,7 +15,7 @@ tile{
   width = 256,
   height = 176,
   pattern = "22",
-tileset = "01 Max Mraz/01 oceanset_inside",
+  tileset = "01 Max Mraz/01 oceanset_inside",
 }
 
 tile{

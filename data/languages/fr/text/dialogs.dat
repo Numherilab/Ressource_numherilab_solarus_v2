@@ -111,3 +111,324 @@ d'initiation de solarus
 ]],
 }
 
+dialog{
+  id = "Base_centrale.marion.items_et_monnaie",
+  text = [[
+Bienvenue, aventurier ! 
+Derrière moi se trouve une porte
+spéciale. En la franchissant, tu 
+apprendras les secrets du 
+codage des PNJ.
+Certains de ces personnages 
+généreux te donneront des rubis 
+et des objets précieux, 
+tandis que d'autres, plus sournois,
+te les retireront.
+]],
+}
+
+dialog{
+  id = "les_dialogues.brigitte.sans_script",
+  text = [[
+Coucou !
+Maintenant, je peux parler. 
+Avant, j'étais muette, mais ça, 
+c'était avant...
+Va voir le point info pour 
+apprendre comment faire.
+C'est le livre posé sur la table !
+]],
+}
+
+dialog{
+  id = "les_dialogues.david.jattend",
+  text = [[
+J'attends le livre sur les potions 
+d'invisibilité, il est juste 
+derrière moi.
+]],
+}
+
+dialog{
+  id = "les_dialogues.david.maudit",
+  text = [[
+Je suis maudit... maudit... 
+fichu livre... fichues poules... 
+pauvre de moi...
+]],
+}
+
+dialog{
+  id = "les_dialogues.david.merci",
+  text = [[
+Je te remercie. 
+Je n'ose plus sortir de chez moi, 
+des poules ont 
+envahi ma pelouse.
+]],
+}
+
+dialog{
+  id = "les_dialogues.david.quete_de_la_potion ",
+  text = [[
+Salut Eldran !
+Peux-tu aller me chercher un livre
+sur les potions d'invisibilité ?
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.01",
+  text = [[
+"Recette pour une potion qui vous 
+rend invisible... 
+sauf pour les poules." Damned ...
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.01_question",
+  question = "1",
+  text = [[
+voulez vous prendre ce livre ?
+oui
+non
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.01_regret",
+  text = [[
+David cherchait un livre sur les 
+potions d'invisibilité. 
+Ça pourrait être celui-ci.
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.01_super",
+  text = [[
+Je crois que j'ai retrouvé le livre.
+Je ferais bien de le rendre 
+à David.
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.02",
+  text = [[
+"Guide ultime pour héroïquement 
+trébucher sur des pierres et se 
+prendre tout les pièges."
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.03",
+  text = [[
+"Pourquoi les pots cachent-ils
+toujours des rubis ?" 
+Une théorie farfelue....
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.04",
+  text = [[
+Le mystère des poules 
+vengeresses : 
+"Pourquoi attaquer une poule est 
+la pire idée de l'univers."
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.05",
+  text = [[
+L'art de la sieste héroïque : 
+"Techniques secrètes pour dormir 
+profondément... 
+même en pleine quête."
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.06",
+  text = [[
+Manuel des pièges ratés : 
+"Histoires de pièges qui n'ont 
+jamais capturé un seul héros."
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.07",
+  text = [[
+Les légendes des montres
+ en retard : 
+"Des héros qui arrivent toujours
+après la bataille."
+]],
+}
+
+dialog{
+  id = "les_dialogues.etagere.08",
+  text = [[
+Le grand livre des excuses 
+héroïques : 
+"Excuses inventives pour éviter 
+de sauver le monde aujourd'hui."
+]],
+}
+
+dialog{
+  id = "les_dialogues.morus.avec_script",
+  text = [[
+Je parle ! Oui, je parle ! 
+Nom d'une chouquette, 
+je parle vraiment !
+Mais... j'ai rien à dire... snif.
+]],
+}
+
+dialog{
+  id = "les_dialogues.roger.non",
+  text = [[
+Ah, je vois, tu préfères garder le 
+mystère... ou éviter d'avoir à 
+poser des questions compliquées, 
+hein ? C'est une technique, 
+je suppose !
+]],
+}
+
+dialog{
+  id = "les_dialogues.roger.oui",
+  text = [[
+Le secret est simple : 
+il faut toujours commencer par une 
+question bête, comme ça, toutes 
+celles qui suivent paraissent 
+brillantes !
+]],
+}
+
+dialog{
+  id = "les_dialogues.roger.question",
+  question = "1",
+  text = [[
+tu es muet comme une carpe je 
+vais t'offrir le cadeau d'une vie ! 
+Veux-tu connaître le secret pour 
+poser de bonnes questions ? 
+oui
+non
+]],
+}
+
+dialog{
+  id = "les_dialogues.sylvia.non",
+  text = [[
+Non ? Alors le vent murmure des 
+secrets que même les montagnes 
+ignorent... ou vice versa !
+"Vestis flos in piscibus ambulat." 
+Cela ne veut rien dire, mais ça 
+sonne bien.
+]],
+}
+
+dialog{
+  id = "les_dialogues.sylvia.oui",
+  text = [[
+voilà une réponse bien 
+alembiquer pour une question 
+aussi simple !
+]],
+}
+
+dialog{
+  id = "les_dialogues.sylvia.question",
+  question = "1",
+  text = [[
+Sais-tu la question à la réponse ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "pnj_items_monnaie.caroline.plus_de_potion",
+  text = [[
+Oh non, plus de potion de vie ! 
+J'ai bien du jus de pied, mais 
+je doute que ça te plaise.
+]],
+}
+
+dialog{
+  id = "pnj_items_monnaie.caroline.potion",
+  text = [[
+Tiens, prends cette potion de vie. 
+Elle est fraîchement concoctée 
+ce matin... enfin, j'espère.
+]],
+}
+
+dialog{
+  id = "pnj_items_monnaie.doc.10_monnaie",
+  text = [[
+Nom de Zeus ! 
+Prends ces 10 pièces pour t'aider 
+dans ton aventure. 
+Utilise-les à bon escient !
+]],
+}
+
+dialog{
+  id = "pnj_items_monnaie.info.01",
+  text = [[
+Le script 
+game:add_money(nombre) 
+permet de donner autant d'argent 
+que vous le souhaitez, 
+cependant ce PNJ donne de 
+l'argent à chaque fois que vous lui 
+parlez. Allez voir la map 2 
+pour régler ce problème.
+]],
+}
+
+dialog{
+  id = "pnj_items_monnaie.jeanine.donne_rubis",
+  text = [[
+Salut aventurier ! J'ai quelque chose
+pour toi. Prends ces 50 rubis !
+Mais fais attention ! 
+Ces rubis sont ensorcelés... 
+Ils disparaissent mystérieusement 
+dans les boutiques de bonbons et 
+de gadgets inutiles. 
+Fais gaffe à ton porte-monnaie !
+]],
+}
+
+dialog{
+  id = "pnj_items_monnaie.jeanine.plus_de_rubis",
+  text = [[
+Salut aventurier ! Désolé, mais 
+je suis fauché comme les blés. 
+Je t'ai tout donné.
+]],
+}
+
+dialog{
+  id = "pnj_items_monnaie.marty.30_monnaie",
+  text = [[
+Prends ces 30 pièces pour t'aider 
+dans ton aventure. 
+Et souviens-toi, 
+je ne suis pas une poule mouillée.
+]],
+}
+

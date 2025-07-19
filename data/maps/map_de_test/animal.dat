@@ -1,0 +1,29 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 400,
+  height = 400,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "01 Max Mraz/01 oceanset_inside",
+}
+
+custom_entity{
+  layer = 0,
+  x = -32,
+  y = 229,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "animals/gull",
+  model = "animals/bird_gliding",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 64,
+  y = 221,
+  direction = 1,
+}
+

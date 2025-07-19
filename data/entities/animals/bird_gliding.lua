@@ -11,8 +11,8 @@ local map = entity:get_map()
 function entity:on_created()
   --Entity properties:
   local speed = entity:get_property("speed") or 150
-  local off_map_delay_min = entity:get_property("off_map_delay_min") or 5000
-  local off_map_delay_max = entity:get_property("off_map_delay_min") or 50000
+  local off_map_delay_min = entity:get_property("off_map_delay_min") or 1000
+  local off_map_delay_max = entity:get_property("off_map_delay_max") or 2000
   local position_variance = entity:get_property("position_variance") or 80
   local angle_variance = entity:get_property("angle_variance") or 15
   ---
@@ -26,7 +26,7 @@ function entity:on_created()
   if direction % 2 == 0 then
     map_overrun = (x < 0) and (x * -1) or (x - map_width)
   else
-    map_overrun = (y < 0) and (x * -1) or (y - map_height)
+    map_overrun = (y < 0) and (y * -1) or (y - map_height)
   end
 
   local max_distance = ((direction % 2 == 0) and map_width or map_height) + (map_overrun * 2)
@@ -49,6 +49,8 @@ function entity:on_created()
         entity:set_position(x + offset, y, z)
       end
 
+      -- Reverse direction to come back
+      direction = (direction + 2) % 4
       entity:set_direction(direction)
       sol.timer.start(entity, math.random(off_map_delay_min, off_map_delay_max), function()
         fly()

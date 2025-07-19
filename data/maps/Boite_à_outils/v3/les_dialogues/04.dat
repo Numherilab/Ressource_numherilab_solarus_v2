@@ -465,7 +465,7 @@ teletransporter{
   y = 208,
   width = 16,
   height = 16,
-  destination_map = "les_dialogues/03",
+  destination_map = "Boite_à_outils/v3/les_dialogues/03",
   destination = "destination_2",
 }
 
@@ -483,7 +483,7 @@ teletransporter{
   y = 16,
   width = 16,
   height = 16,
-  destination_map = "les_dialogues/05",
+  destination_map = "Boite_à_outils/v3/les_dialogues/05",
   destination = "destination",
 }
 

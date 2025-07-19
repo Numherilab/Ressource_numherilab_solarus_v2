@@ -14,7 +14,7 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("map_de_test/v", nil)  -- Starting location.
+  game:set_starting_location("Boite_à_outils/v3/base_centrale", nil)  -- Starting location.
 
   game:set_max_life(10)
   game:set_life(game:get_max_life())

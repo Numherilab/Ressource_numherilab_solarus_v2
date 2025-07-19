@@ -5,7 +5,7 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-tileset = "01 Max Mraz/01 oceanset_inside",
+  tileset = "01 Max Mraz/01 oceanset_inside",
 }
 
 tile{
@@ -157,7 +157,7 @@ teletransporter{
   y = 200,
   width = 16,
   height = 16,
-  destination_map = "Interractions_pnj_avec_les_items_money/03",
+  destination_map = "Boite_à_outils/v3/Interractions_pnj_avec_les_items_money/03",
   destination = "destination_item_rubis_2",
 }
 
@@ -167,7 +167,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  destination_map = "Interractions_pnj_avec_les_items_money/05",
+  destination_map = "Boite_à_outils/v3/Interractions_pnj_avec_les_items_money/05",
   destination = "destination_marion_money_45_1",
 }
 
